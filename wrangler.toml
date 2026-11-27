@@ -1,0 +1,21 @@
+name = "flisk-games"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+routes = [{ pattern = "games.flisk.si", custom_domain = true }]
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/auth/*", "/api/*"]
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "d9cba4e151fd4952a43678455b24e33b"
+
+# No secrets. LOGIN_PUBLIC_KEY is the public half shown at https://login.flisk.si/key.
+[vars]
+PUBLIC_ORIGIN = "https://games.flisk.si"
+LOGIN_ORIGIN = "https://login.flisk.si"
+LOGIN_PUBLIC_KEY = "g_3cGlqaMDf4mM4Bgfv8EO6js7yW_bcSW7cOUpSwLc0"

@@ -1,0 +1,5 @@
+/*
+  content-security-policy: default-src 'self'; img-src 'self' data: https://github.com https://avatars.githubusercontent.com; frame-src https:; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+  x-content-type-options: nosniff
+  strict-transport-security: max-age=31536000; includeSubDomains
+  referrer-policy: strict-origin-when-cross-origin

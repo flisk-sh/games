@@ -1,0 +1,24 @@
+[
+  {
+    "id": "koi-pond",
+    "title": "The Koi Pond",
+    "author": "Shounak Joshi",
+    "url": "https://shounakjoshi88-a11y.github.io/",
+    "thumb": "/thumbs/koi-pond.jpg",
+    "category": "Entertainment",
+    "description": "A pixel-art forest village you can walk, in 2D or 3D. Talk to the villagers, change the weather, toss a coin into the koi pond and find the hidden glints.",
+    "added": "2026-11-27",
+    "embed": true
+  },
+  {
+    "id": "kitchen-rush",
+    "title": "Kitchen Rush",
+    "author": "Run My Agents",
+    "url": "https://run-my-agents.flisk.si/play",
+    "thumb": "/thumbs/kitchen-rush.png",
+    "category": "Gaming",
+    "description": "Hold out five minutes against bugs, flaky tests and red CI with up to three agent cooks. Free, in your browser.",
+    "added": "2026-11-27",
+    "embed": false
+  }
+]

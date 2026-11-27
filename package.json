@@ -1,0 +1,10 @@
+{
+  "name": "flisk-games",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "dev": "bunx wrangler@4 dev",
+    "deploy": "bunx wrangler@4 deploy"
+  }
+}
