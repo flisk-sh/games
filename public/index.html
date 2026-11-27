@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games · Play in your browser</title>
+<meta name="description" content="Browser games and playable pages, free to play. Add yours with one pull request.">
+<meta property="og:title" content="Games">
+<meta property="og:description" content="Browser games and playable pages, free to play.">
+<meta property="og:url" content="https://games.flisk.si/">
+<link rel="icon" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<script src="/app.js" type="module"></script>
+</head>
+<body>
+<header>
+  <button id="menu" class="icon" type="button" aria-label="Toggle sidebar">☰</button>
+  <a class="logo" href="/"><img src="/favicon.svg" alt="" width="28" height="28">Games</a>
+  <input id="search" type="search" placeholder="Search" aria-label="Search games">
+  <a class="pill light" id="import" href="https://github.com/flisk-sh/games#add-a-game" target="_blank" rel="noopener">＋ Add game</a>
+  <div id="account"></div>
+</header>
+<aside>
+  <p>Personal</p>
+  <a href="/" data-nav>⌂ <span>Home</span></a>
+  <a href="/feed" data-nav>▶ <span>Feed</span></a>
+  <a href="/saved" data-nav>⚑ <span>Saved</span></a>
+  <p>Community</p>
+  <a href="https://github.com/flisk-sh/games" target="_blank" rel="noopener">⌥ <span>GitHub</span></a>
+  <a href="/how" data-nav>? <span>How Games works</span></a>
+  <button id="theme" class="pill" type="button">Light / dark</button>
+</aside>
+<main id="view" aria-live="polite"></main>
+<div id="toast" role="status"></div>
+<noscript><p class="empty">Games needs JavaScript.</p></noscript>
+</body>
+</html>
