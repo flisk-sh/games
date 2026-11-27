@@ -19,6 +19,6 @@
     "category": "Gaming",
     "description": "Hold out five minutes against bugs, flaky tests and red CI with up to three agent cooks. Free, in your browser.",
     "added": "2026-11-27",
-    "embed": false
+    "embed": true
   }
 ]
