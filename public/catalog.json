@@ -20,5 +20,16 @@
     "description": "Hold out five minutes against bugs, flaky tests and red CI with up to three agent cooks. Free, in your browser.",
     "added": "2026-11-27",
     "embed": true
+  },
+  {
+    "id": "spider-man",
+    "title": "Friendly Neighborhood Spider-Man",
+    "author": "spiderman-game.vercel.app",
+    "url": "https://spiderman-game.vercel.app/",
+    "thumb": "/thumbs/kitchen-rush.png",
+    "category": "Gaming",
+    "description": "THE CITY IS YOURS. Find your line. Catch a building. Keep the momentum.",
+    "added": "2026-11-27",
+    "embed": true
   }
 ]
